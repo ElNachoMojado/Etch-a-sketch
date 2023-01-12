@@ -5,6 +5,61 @@ body {
     flex-direction: column;
 }
 
+.arriba {
+    border: 5px solid black;
+    display: flex;
+    flex: 1;
+}
+
+.container {
+    border: 5px solid black;
+    display: flex;
+    flex: 1;
+    justify-content: space-evenly;
+}
+
+.buttons {
+    margin: 75px 0;
+    border: 5px solid black;
+    display: flex;
+    flex-direction: column;
+    flex: 0;
+}
+
+#pickColor {
+    border: 5px solid black;
+    display: flex;
+    flex: 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+input {
+    width: 60px;
+}
+
+.clrBtn {
+    padding: 10px;
+    margin: 5px;
+}
+
+#options {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 200px;
+    border: 5px solid black;
+}
+
+button {
+    padding: 10px;
+    border-radius: 10px;
+    border: 0;
+}
+
 #grid {
     border: 5px solid black;
     display: flex;
@@ -18,10 +73,15 @@ body {
 .square {
     border: 1px solid black;
     display: flex;
-   
 }
 
 #footnote {
+    border: 5px solid black;
     display: flex;
     flex: 0;
+    justify-content: center;
+}
+
+p {
+    margin: 0;
 }
