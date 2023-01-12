@@ -11,7 +11,7 @@ function addSquares () {
     square.classList.add('square');
     square.setAttribute("style", `height: ${size}px; width: ${size}px`);
     grid.appendChild(square);
-    square.addEventListener("mouseover", () => {
+    square.addEventListener('click', () => {
         square.style.backgroundColor = `${color}`;
     });
 }
@@ -72,7 +72,6 @@ option.addEventListener('click', event => {
                 squaresRow = 64;
                 addSquares();
             }
-        } 
-
+        }
     }
 });
